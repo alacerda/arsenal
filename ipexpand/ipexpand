@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+import ipcalc
+import getopt
+import sys
+
+exclusions_list = []
+
+subnets=""
+exclusions=""
+output=""
+
+def goingForTheKill():
+    result = []
+    subnets_file = open(subnets,'r')
+    subnets_lines = subnets_file.readlines()
+
+    exclusions_file = open(exclusions,'r')
+    exclusions_lines = exclusions_file.readlines()
+
+    for line in exclusions_lines:
+        if not line == "\n":
+            for ip in ipcalc.Network(line.strip()):
+                exclusions_list.append(ip)
+
+    for line in subnets_lines:
+        if not line == "\n":
+            for ip in ipcalc.Network(line.strip()):
+                if ip not in exclusions_list:
+                    # add to a list
+                    result.append(ip)
+
+    # If the user did not specified an output
+    if not output:
+        # print the result to the screen
+        print(*result, sep = ",")
+    else:
+        # write the result into a file
+        f = open(output,"a")
+        for ip in result:
+            f.write("%s," % ip)
+        f.close()
+
+def hell_p():
+    print("ipexpand: expand CIDRs and exclude some IPs from the list.")
+    print("USAGE:")
+    print("ipexpand -t targets.txt -e exclusions.txt -o result.txt")
+    sys.exit()
+
+def main(argv):
+    global subnets, exclusions, output
+
+    try:
+        # t = targets, e = exceptions, o = output, h = help
+        opts, args  = getopt.getopt(argv, "t:e:ho:")
+    except getopt.GetoptError:
+        hell_p()
+
+    for opt, arg in opts:
+        if opt == '-h':
+            hell_p()
+        if opt == '-t':
+            subnets = arg
+        if opt == '-e':
+            exclusions = arg
+        if opt == '-o':
+            output = arg
+
+    if not subnets:
+        hell_p()
+
+    goingForTheKill()
+
+if __name__ == '__main__':
+    main(sys.argv[1:])
+
