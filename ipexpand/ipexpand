@@ -32,12 +32,12 @@ def goingForTheKill():
     # If the user did not specified an output
     if not output:
         # print the result to the screen
-        print(*result, sep = ",")
+        print(*result, sep = "\n")
     else:
         # write the result into a file
         f = open(output,"a")
         for ip in result:
-            f.write("%s," % ip)
+            f.write("%s\n" % ip)
         f.close()
 
 def hell_p():
