@@ -14,13 +14,13 @@ def goingForTheKill():
     subnets_file = open(subnets,'r')
     subnets_lines = subnets_file.readlines()
 
-    exclusions_file = open(exclusions,'r')
-    exclusions_lines = exclusions_file.readlines()
-
-    for line in exclusions_lines:
-        if not line == "\n":
-            for ip in ipcalc.Network(line.strip()):
-                exclusions_list.append(ip)
+    if exclusions:
+        exclusions_file = open(exclusions,'r')
+        exclusions_lines = exclusions_file.readlines()
+        for line in exclusions_lines:
+            if not line == "\n":
+                for ip in ipcalc.Network(line.strip()):
+                    exclusions_list.append(ip)
 
     for line in subnets_lines:
         if not line == "\n":
