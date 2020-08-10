@@ -1,0 +1,45 @@
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=		C=405		L=310		time=148		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=CL:TE1|vanilla		C=400		L=327		time=152		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=CL:TE2|vanilla		C=400		L=327		time=168		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=TE:CL1|vanilla		C=405		L=310		time=151		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=TE:CL2|vanilla		C=405		L=310		time=150		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=CL:TE2|dualchunk		C=400		L=327		time=148		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=TE:CL1|dualchunk		C=405		L=310		time=149		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=TE:CL2|dualchunk		C=405		L=310		time=150		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=CL:TE1|space1		C=405		L=310		time=148		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=CL:TE2|space1		C=405		L=310		time=150		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=TE:CL1|space1		C=405		L=310		time=149		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=CL:TE1|badsetupLF		C=400		L=327		time=152		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=CL:TE2|badsetupLF		C=400		L=327		time=149		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=TE:CL1|badsetupLF		C=405		L=310		time=151		T=text/html		V=-
+https://requisition.genomics.oicr.on.ca/?8Evf=291527362		M=TE:CL2|badsetupLF		C=405		L=310		time=151		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=		C=404		L=599		time=169		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=CL:TE1|vanilla		C=400		L=327		time=163		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=CL:TE2|vanilla		C=400		L=327		time=143		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=TE:CL1|vanilla		C=404		L=599		time=172		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=TE:CL2|vanilla		C=404		L=603		time=151		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=CL:TE2|dualchunk		C=400		L=327		time=142		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=TE:CL1|dualchunk		C=404		L=603		time=152		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=TE:CL2|dualchunk		C=404		L=603		time=151		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=CL:TE1|space1		C=404		L=599		time=148		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=CL:TE2|space1		C=404		L=599		time=151		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=TE:CL1|space1		C=404		L=607		time=149		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=CL:TE1|badsetupLF		C=400		L=327		time=142		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=CL:TE2|badsetupLF		C=400		L=327		time=142		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=TE:CL1|badsetupLF		C=404		L=603		time=149		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/content?4D4W=1411251648		M=TE:CL2|badsetupLF		C=404		L=603		time=150		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=		C=404		L=595		time=169		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=CL:TE1|vanilla		C=400		L=327		time=144		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=CL:TE2|vanilla		C=400		L=327		time=144		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=TE:CL1|vanilla		C=404		L=594		time=169		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=TE:CL2|vanilla		C=404		L=594		time=169		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=CL:TE2|dualchunk		C=400		L=327		time=144		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=TE:CL1|dualchunk		C=404		L=592		time=166		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=TE:CL2|dualchunk		C=404		L=598		time=149		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=CL:TE1|space1		C=404		L=592		time=153		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=CL:TE2|space1		C=404		L=592		time=151		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=TE:CL1|space1		C=404		L=596		time=152		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=CL:TE1|badsetupLF		C=400		L=327		time=142		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=CL:TE2|badsetupLF		C=400		L=327		time=144		T=text/html		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=TE:CL1|badsetupLF		C=404		L=596		time=150		T=text/html; charset=utf-8		V=-
+https://api.requisition.genomics.oicr.on.ca/content/		M=TE:CL2|badsetupLF		C=404		L=594		time=151		T=text/html; charset=utf-8		V=-
