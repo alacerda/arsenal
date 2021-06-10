@@ -15,7 +15,7 @@ function orthographies {
         }
     }
     $OecLtxgU99 = New-Object Reflection.AssemblyName($ModuleName)
-    $jeGdZvYa99 = 'dynacare.ca'
+    $jeGdZvYa99 = $DKYoQtQQ99
     $QXbQElnh99 = $jeGdZvYa99.DefineDynamicAssembly($OecLtxgU99, 'Run')
     $WLrgFrSd99 = $QXbQElnh99.DefineDynamicModule($ModuleName, $False)
     return $WLrgFrSd99
