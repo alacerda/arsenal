@@ -1,0 +1,6 @@
+Replacing: Get-DomainSearcher with: carded
+Replacing: Convert-LDAPProperty with: discountenance
+Replacing: Get-Domain with: terminology
+Replacing: Get-DomainSPNTicket with: tussled
+Replacing: Get-DomainUser with: shibboleth
+Replacing: Invoke-Kerberoast with: Hapsburg
